@@ -1,15 +1,15 @@
 import React from "react";
 import { useAPI } from "./apicontext";
-import Names from './name'
-export default function Users() {
+// import Nameuser from './name'
+
+export default function Names() {
   const { users } = useAPI();
-  console.log(users,"user this");
+  console.log(users,"call this");
   return (
     <div>
-<Names/>
       <ul>
         {users.map(u => (
-          <li>{u.username}</li>
+          <li>{u.name}</li>
 
         ))}
       </ul>
