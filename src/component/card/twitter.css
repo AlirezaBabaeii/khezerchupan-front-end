@@ -1,0 +1,24 @@
+/* .twitterbody{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+padding: 20px;
+}
+.cardtwitter{
+    margin: 2px;
+} */
+.bodytwiterscard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+}
+.cardtwitters{
+    width: 450px;
+    height: 450px;
+    margin: 1%;
+}
+.imagetwiter {
+    width: 450px;
+    height: 450px;
+}
